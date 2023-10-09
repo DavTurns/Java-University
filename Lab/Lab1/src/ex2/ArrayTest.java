@@ -5,7 +5,6 @@ public class ArrayTest {
     public static void arrayTest() {
         //Here are all tests as they're not that complex
 
-
         ArrayProcessor ap = new ArrayProcessor();
 
         int[] numbers = new int[]{4, 8, 3, 10, 17};
