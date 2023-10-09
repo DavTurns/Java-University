@@ -10,11 +10,13 @@ public class ArrayNumberProcessor {
         int ArraysLength = summand1.length;
         int[] result = new int[ArraysLength];
         int carry = 0;
+
         for (int i = ArraysLength - 1; i >= 0; i--) {
             int sum = summand1[i] + summand2[i] + carry;
             carry = sum / 10;
             result[i] = sum % 10;
         }
+
         if (carry != 0) {
             //insert carry to the front
             int[] newarray = new int[ArraysLength + 1];

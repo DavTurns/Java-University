@@ -1,6 +1,8 @@
 import ex1.GradeTest;
 import ex2.ArrayTest;
 import ex3.ArrayNumberTest;
+import ex4.ElectronicsStore;
+import ex4.ElectronicsStoreTest;
 
 public class TestRunner {
     public static void main(String[] args) {
@@ -22,5 +24,11 @@ public class TestRunner {
         ArrayNumberTest.subtractTest();
         ArrayNumberTest.multiplyTest();
         ArrayNumberTest.divideTest();
+
+        //ex 4:
+        ElectronicsStoreTest.getCheapestKeyboardTest();
+        ElectronicsStoreTest.getMostExpensivePriceTest();
+        ElectronicsStoreTest.getMostExpensiveAffordableKeyboardTest();
+        ElectronicsStoreTest.getMostExpensiveAffordableCombinationTest();
     }
 }
