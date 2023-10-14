@@ -14,8 +14,20 @@ public class ArrayTest {
         assert ap.maxSum(numbers) == 39;
         assert ap.minSum(numbers) == 25;
 
-        System.out.println("Ex 2: All tests passed");
+        //unexpected tests
+        numbers = new int[0];
+        assert ap.getMax(numbers) == -1;
+        assert ap.getMin(numbers) == -1;
+        assert ap.maxSum(numbers) == -1;
+        assert ap.minSum(numbers) == -1;
 
+        numbers = new int[]{4, -5, 3, 10, 17};
+        assert ap.getMax(numbers) == -1;
+        assert ap.getMin(numbers) == -1;
+        assert ap.maxSum(numbers) == -1;
+        assert ap.minSum(numbers) == -1;
+
+        System.out.println("Ex 2: All tests passed");
     }
 
 

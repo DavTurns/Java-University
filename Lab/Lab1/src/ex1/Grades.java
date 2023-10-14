@@ -19,6 +19,9 @@ public class Grades {
 
     public int round(int grade) {
         //helper function
+
+        verifyIfInGradeIntervall(grade);
+
         if (grade < 38) {
             return grade;
         } else {
@@ -31,8 +34,14 @@ public class Grades {
         }
     }
 
+    public void verifyIfInGradeIntervall(int nr) {
+        if (nr > 100 || nr < 0) throw new RuntimeException("Number not in gradeintervall");
+    }
+
     public int[] addToArray(int[] original, int newElement) {
-        //helperfunction
+        //helper function
+        verifyIfInGradeIntervall(newElement);
+
         int[] result = new int[original.length + 1];
 
         for (int i = 0; i < original.length; i++) {
@@ -52,10 +61,7 @@ public class Grades {
 
     public int getAverage(int[] grades) {
 
-        if (grades.length == 0) {
-            //exception
-            return -1;
-        }
+        if (grades.length == 0) throw new RuntimeException("Parameter list has no elements");
 
         int sum = 0;
         for (int i = 0; i < grades.length; i++) {
@@ -65,7 +71,7 @@ public class Grades {
 
     }
 
-    public int getMaxroundedGrade(int[] grades) {
+    public int getMaxRoundedGrade(int[] grades) {
 
         grades = convertToRoundedGrades(grades);
 

@@ -20,6 +20,7 @@ public class TestRunner {
         ArrayTest.arrayTest();
 
         //ex 3:
+        ArrayNumberTest.compressArrayTest();
         ArrayNumberTest.addTest();
         ArrayNumberTest.subtractTest();
         ArrayNumberTest.multiplyTest();
@@ -30,5 +31,7 @@ public class TestRunner {
         ElectronicsStoreTest.getMostExpensivePriceTest();
         ElectronicsStoreTest.getMostExpensiveAffordableKeyboardTest();
         ElectronicsStoreTest.getMostExpensiveAffordableCombinationTest();
+
+        System.out.println("all tests passed");
     }
 }
