@@ -1,14 +1,12 @@
-public class Camera implements Observer{
+public class Camera {
 
-    private Mensch p;
+    private String name;
 
-    public Camera(Mensch p) {
-        this.p = p;
+    public Camera(String name) {
+        this.name = name;
     }
-
-    @Override
-    public void update(String name) {
-        p.hatGesehen(name);
+    public void sieht(String name) {
+        System.out.println(this.name+ " hat entdeckt"+ name);
     }
 
 }

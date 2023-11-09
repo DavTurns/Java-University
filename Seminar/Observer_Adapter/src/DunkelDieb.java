@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class SchmuckDieb implements Observable{
+public class DunkelDieb implements Observable{
 
-    private List<Observer> cameras;
+    private List<InfrarotSicht> cameras;
     private String name;
 
     @Override
@@ -13,32 +13,32 @@ public class SchmuckDieb implements Observable{
                 '}';
     }
 
-    public SchmuckDieb(String name) {
+    public DunkelDieb(String name) {
         this.cameras = new ArrayList<>();
         this.name = name;
     }
 
     @Override
     public void notifyObservers() {
-        for(Observer o: cameras) {
-            o.update(name);
+        for(InfrarotSicht o: cameras) {
+            o.siehtImDunkeln(this.name);
         }
     }
 
     @Override
-    public void remove(Observer observer) {
+    public void remove(InfrarotSicht observer) {
         cameras.remove(observer);
     }
 
     @Override
-    public void register(Observer newObserver) {
+    public void register(InfrarotSicht newObserver) {
         cameras.add(newObserver);
+
     }
 
-    public void verwendetDrohneZumKlauen() {
-        System.out.printf("Schmuckdieb klaut");
+    public void klautImDunkeln() {
+        System.out.printf("Dunkeldieb klaut im dunkeln:\n");
         notifyObservers();
         System.out.printf("\n\n");
-
     }
 }

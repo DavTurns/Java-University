@@ -4,20 +4,19 @@ public class Main {
     public static void main(String[] args) {
 
         //eine person kann nicht direkt den dieb sehen, weil diese in einem anderen haus sind
-        Person person = new Person("Bob");
-        Camera c1 = new Camera(person);
-        Camera c2 = new Camera(person);
+        Camera c1 = new Camera("normale camera");
+        InfrarotAdapter a1 = new InfrarotAdapter(c1);
 
-        SchmuckDieb dieb1 = new SchmuckDieb("DIEB1");
-        Drohne d = new Drohne(dieb1);
-        MoneyDieb dieb2 = new MoneyDieb("DIEB2");
+        InfrarotCamera infrarotCamera = new InfrarotCamera("infrarotcamera1");
+        InfrarotCamera infrarotCamera2 = new InfrarotCamera("infrarotcamera2");
+        Camera c2 = new Camera("c2");
 
-        dieb1.register(c1);
-        dieb1.register(c2);
+        DunkelDieb dieb1 = new DunkelDieb("DIEB1");
 
-        dieb2.register(c2);
+        dieb1.register(a1);
+        dieb1.register(infrarotCamera);
+        dieb1.register(infrarotCamera2);
 
-        d.klauen();
-        dieb2.klauen();
+        dieb1.klautImDunkeln();
     }
 }

@@ -1,9 +1,9 @@
 public interface Observable {
     public void notifyObservers();
 
-    public void remove(Observer observer);
+    public void remove(InfrarotSicht observer);
 
-    public void register(Observer newObserver);
+    public void register(InfrarotSicht newObserver);
 
     public String toString();
 }
