@@ -37,12 +37,12 @@ public class ElectronicsStoreTest {
         System.out.println("Ex 4: getMostExpensivePriceTest passed");
     }
 
-    public static void getMostExpensiveAffordableKeyboardTest() {
+    public static void getMostExpensiveAffordableUsbDriveTest() {
         ElectronicsStore es = new ElectronicsStore(new int[]{15, 20, 10, 45}, new int[]{5, 20, 25, 50});
 
-        assert es.getMostExpensiveAffordableUsbDrive(15) == 5;
-        assert es.getMostExpensiveAffordableUsbDrive(27) == 25;
-        assert es.getMostExpensiveAffordableUsbDrive(49) == 25;
+        assert es.getMostExpensiveAffordableUsbDrive(15) == 15;
+        assert es.getMostExpensiveAffordableUsbDrive(27) == 20;
+        assert es.getMostExpensiveAffordableUsbDrive(49) == 45;
 
         //unexpected case
         try {

@@ -29,7 +29,7 @@ public class TestRunner {
         //ex 4:
         ElectronicsStoreTest.getCheapestKeyboardTest();
         ElectronicsStoreTest.getMostExpensivePriceTest();
-        ElectronicsStoreTest.getMostExpensiveAffordableKeyboardTest();
+        ElectronicsStoreTest.getMostExpensiveAffordableUsbDriveTest();
         ElectronicsStoreTest.getMostExpensiveAffordableCombinationTest();
 
         System.out.println("all tests passed");
