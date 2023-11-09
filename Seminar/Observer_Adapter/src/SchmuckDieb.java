@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class SchmuckDieb implements Klauen, Observable{
+public class SchmuckDieb implements Observable{
 
     private List<Observer> cameras;
     private String name;
@@ -35,10 +35,10 @@ public class SchmuckDieb implements Klauen, Observable{
         cameras.add(newObserver);
     }
 
-    @Override
-    public void klauen() {
+    public void verwendetDrohneZumKlauen() {
         System.out.printf("Schmuckdieb klaut");
         notifyObservers();
         System.out.printf("\n\n");
+
     }
 }

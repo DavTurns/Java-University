@@ -9,6 +9,7 @@ public class Main {
         Camera c2 = new Camera(person);
 
         SchmuckDieb dieb1 = new SchmuckDieb("DIEB1");
+        Drohne d = new Drohne(dieb1);
         MoneyDieb dieb2 = new MoneyDieb("DIEB2");
 
         dieb1.register(c1);
@@ -16,7 +17,7 @@ public class Main {
 
         dieb2.register(c2);
 
-        dieb1.klauen();
+        d.klauen();
         dieb2.klauen();
     }
 }
