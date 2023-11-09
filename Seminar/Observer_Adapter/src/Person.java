@@ -1,7 +1,8 @@
-public class Person {
+public class Person implements Mensch{
 
     private String name;
 
+    @Override
     public void hatGesehen(String name){
         System.out.printf(this.name + " hat gesehen" + name+"\n");
     }
