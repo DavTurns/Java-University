@@ -1,8 +1,8 @@
 public class Camera implements Observer{
 
-    private Person p;
+    private Mensch p;
 
-    public Camera(Person p) {
+    public Camera(Mensch p) {
         this.p = p;
     }
 
