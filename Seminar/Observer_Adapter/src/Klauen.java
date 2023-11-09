@@ -1,4 +1,4 @@
-public interface Klauen {
+public interface Klauen{
 
     public void klauen();
 }

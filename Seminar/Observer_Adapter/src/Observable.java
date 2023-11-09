@@ -4,4 +4,6 @@ public interface Observable {
     public void remove(Observer observer);
 
     public void register(Observer newObserver);
+
+    public String toString();
 }

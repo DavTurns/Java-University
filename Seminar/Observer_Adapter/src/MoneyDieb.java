@@ -5,8 +5,18 @@ public class MoneyDieb implements  Klauen, Observable{
 
     private List<Observer> cameras;
 
-    public MoneyDieb() {
+    @Override
+    public String toString() {
+        return "MoneyDieb{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+
+    private String name;
+
+    public MoneyDieb(String name) {
         this.cameras = new ArrayList<>();
+        this.name = name;
     }
 
     @Override
@@ -19,7 +29,7 @@ public class MoneyDieb implements  Klauen, Observable{
     @Override
     public void notifyObservers() {
         for(Observer o: cameras) {
-            o.update();
+            o.update(name);
         }
     }
 

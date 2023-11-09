@@ -4,15 +4,24 @@ import java.util.List;
 public class SchmuckDieb implements Klauen, Observable{
 
     private List<Observer> cameras;
+    private String name;
 
-    public SchmuckDieb() {
+    @Override
+    public String toString() {
+        return "SchmuckDieb{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+
+    public SchmuckDieb(String name) {
         this.cameras = new ArrayList<>();
+        this.name = name;
     }
 
     @Override
     public void notifyObservers() {
         for(Observer o: cameras) {
-            o.update();
+            o.update(name);
         }
     }
 
