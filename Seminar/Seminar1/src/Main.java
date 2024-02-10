@@ -1,5 +1,4 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 public class Main {
     public static String reverse(String input) {
 
@@ -24,7 +23,6 @@ public class Main {
         System.out.println(op.mul(5, 3));
 
         Wordcount c = new Wordcount();
-        //System.out.println(c.count("   cacamaca m aria,  eeee  dididid, oaoaoao  d"));
         System.out.println(op.perfectNumber(4944));
 
         int[] temp = {12, 14, 9, 12, 15, 16, 15, 15, 11, 8, 13, 13, 15, 12};

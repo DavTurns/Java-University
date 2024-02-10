@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ba30ef2-a644-447d-8a9d-c1658fcd7aca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Lab/springbootdemo/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab/springbootdemo/.idea/springbootdemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multiplymatrix/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multiplymatrix/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multiplymatrix/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multiplymatrix/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multiplymatrix/Multiplymatrix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Multiplymatrix/src/MatrixOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlaygroundJava/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlaygroundJava/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlaygroundJava/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlaygroundJava/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlaygroundJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlaygroundJava/src/main/java/org/example/Repo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlaygroundJava/src/main/java/org/example/Repo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlaygroundJava/src/test/java/Teststest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/PraktischePrufungUbung.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Aufgabe1/Contryconverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Aufgabe1/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Aufgabe2/CelsiusStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Aufgabe2/CitizenCountThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Aufgabe2/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Aufgabe2/FahrenheitStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Aufgabe2/Stadt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Aufgabe2/Temperatur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Aufgabe2/TemperatureStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Aufgabe2/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Tests/TestsAufgabe1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PraktischePrufungUbung/src/Tests/TestsAufgabe2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar10/eink.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar10/fil.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar10/src/main/java/org/example/Aufgabe1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar10/src/main/java/org/example/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar10/src/main/java/org/example/Internet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar10/src/main/java/org/example/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar10/src/main/java/org/example/ProxyInternet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar10/src/main/java/org/example/RealInternet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar14/src/main/java/DPRCIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar14/src/main/java/DPRCIVProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar14/src/main/java/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar14/src/main/java/PayHUF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar14/src/main/java/PayRON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar14/src/main/java/Placinta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar14/src/main/java/Placintarie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar14/src/main/java/Police.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar14/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar14/src/main/java/Testbuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar7/Seminar7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar7/src/AverageCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar7/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar7/src/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar7/src/MaxSalaryCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar7/src/MaxThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar7/src/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar7/src/SumThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar8/Seminar8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar8/src/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar8/src/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar8/src/ParallelQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar8/src/SharedCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar8/src/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar9/Seminar9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar9/src/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Seminar9/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ubung6_2_2/Ubung6_2_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ubung6_3_2/Ubung6_3_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Seminar1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Seminar1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Seminar2/src/ToolFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Seminar2/src/ToolFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2cAdl3CLrEMW4G1YAPPUgjrv2op" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/Latitude/Desktop/github_repositories/Java-University/Seminar/Seminar4/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Seminar4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ba30ef2-a644-447d-8a9d-c1658fcd7aca" name="Changes" comment="" />
+      <created>1707558468446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707558468446</updated>
+      <workItem from="1707558470187" duration="760000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

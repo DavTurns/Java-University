@@ -6,8 +6,7 @@ public class ToolFilter {
         List<Tool> filtered = new ArrayList<>();
 
         for (Tool tool : tools) {
-            if (tool.getWeight() >= weight)
-                filtered.add(tool);
+            if (tool.getWeight() >= weight) filtered.add(tool);
         }
         return filtered;
     }
@@ -16,8 +15,7 @@ public class ToolFilter {
         List<Tool> filtered = new ArrayList<>();
 
         for (Tool tool : tools) {
-            if (tool instanceof Cut)
-                filtered.add(tool);
+            if (tool instanceof Cut) filtered.add(tool);
         }
         return filtered;
     }
